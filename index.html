@@ -9,24 +9,40 @@
 </head>
 <body>
     <!-- Header -->
-    <section id="title" class = gradient-background>
-        <div class="container col-xxl-8 px-4 pt-5">
-          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-              <img src="./Images/DotiRockWall.png" class="d-block mx-lg-auto img-fluid route3" alt="Bootstrap Themes" height="100" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 campusingText">Campusing</h1>
-              <p class="lead">A website for college campuses with rockwalls. Track your climbing progres if you're a student, or use campusing to document work being done in the gym!</p>
-              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 download">Login</button>
-                <button type="button" class="btn btn-outline-dark btn-lg px-4 download2">
-                More Info</button>
+    <div class="gradient-background pt">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start pt-5 px-4 mainHeader">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+  
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 text-black featuresLink">Features</a></li>
+          <li><a href="#" class="nav-link px-2 text-black collegesLink">Colleges</a></li>
+          <li><a href="./about.html" class="nav-link px-2 text-black aboutLink">About</a></li>
+        </ul>
+  
+        <div class="text-end">
+          <a href="./login.html">
+            <button type="button" class="btn btn-outline-dark me-2">Login</button>
+          </a>
+          <button type="button" class="btn btn-dark">Sign-up</button>
+        </div>
+      </div>
+  
+      <section id="title">
+          <div class="container col-xxl-8 px-4 pt-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./Images/DotiRockWall.png" class="d-block mx-lg-auto pb-3 img-fluid route3 px-4" alt="Bootstrap Themes" height="100" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 campusingText pb-3">Campusing</h1>
+                <p class="lead">THE website for college climbing gyms. Whether you're a student looking to climb or student staff, Campusing will help for all of your rock wall needs!</p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+    </div>
 
     <!-- Features -->
     <div class="container px-4 py-5" id="hanging-icons">
@@ -76,16 +92,11 @@
       <!-- Footer -->
       <div class="container">
         <footer class="py-3 my-4">
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-          </ul>
           <p class="text-center text-body-secondary">Campusing © Jaden Johnson & Tyler Edwards 2024</p>
         </footer>
       </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
