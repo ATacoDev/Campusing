@@ -27,3 +27,20 @@
     height: 3rem;
     border-radius: .75rem;
 }
+
+.lead {
+  font-style: bold;
+}
+
+.campusingText {
+  text-decoration: underline;
+}
+
+.mainHeader {
+  border-bottom: black 1px solid;
+  padding:25px
+}
+
+a {
+  text-decoration: none;
+}
